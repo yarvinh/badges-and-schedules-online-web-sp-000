@@ -25,7 +25,7 @@ end
 
 def printer(attendees)
   attendees.each do |attendees|
-  puts  badge_maker(attendees)
+  puts  assign_rooms(attendees)
   end
   # puts assign_rooms(attendees)
 end
