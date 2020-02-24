@@ -25,7 +25,7 @@ end
 
 def printer(attendees)
     attendees_array = assign_rooms(attendees)
-    attendees_array[0]
+  puts   attendees_array[0]
 
 
 end
