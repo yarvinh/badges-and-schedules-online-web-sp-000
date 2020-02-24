@@ -31,7 +31,7 @@ loop do counter <= batch_badge_creator(attendees).length
  counter += 1
  end
 
- puts assign_rooms(attendees)[counter]
+ puts assign_rooms(attendees)[0]
 
 
 
