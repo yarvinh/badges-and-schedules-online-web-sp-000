@@ -25,11 +25,11 @@ end
 
 def printer(attendees)
 counter = 0
-loop do counter <= batch_badge_creator(attendees).length 
+loop do counter <= batch_badge_creator(attendees).length
  puts batch_badge_creator(attendees)[counter]
  counterm += 1
  end
-  
+
 
 
 
