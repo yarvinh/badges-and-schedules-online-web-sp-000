@@ -27,7 +27,7 @@ def printer(attendees)
 counter = 0
 while counter <= batch_badge_creator(attendees).length
  puts batch_badge_creator(attendees)[counter]
- puts assign_rooms(name)[counter]
+ # puts assign_rooms(name)[counter]
  counter += 1
  end
 
