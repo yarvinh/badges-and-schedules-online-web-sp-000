@@ -47,6 +47,6 @@ def printer(attendees)
      counter_1 += 1
      end
 
-  
+
 
 end
