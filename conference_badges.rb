@@ -24,33 +24,29 @@ assigned_room
 end
 
 def printer(attendees)
-  puts batch_badge_creator(attendees)[0]
-  puts assign_rooms(attendees)[0]
-  puts batch_badge_creator(attendees)[1]
-  puts assign_rooms(attendees)[1]
-  puts batch_badge_creator(attendees)[2]
-  puts assign_rooms(attendees)[2]
-  puts batch_badge_creator(attendees)[3]
-  puts assign_rooms(attendees)[3]
-  puts batch_badge_creator(attendees)[4]
-  puts assign_rooms(attendees)[4]
-  puts batch_badge_creator(attendees)[5]
-  puts assign_rooms(attendees)[5]
-  puts batch_badge_creator(attendees)[6]
-  puts assign_rooms(attendees)[6]
+  # puts batch_badge_creator(attendees)[0]
+  # puts assign_rooms(attendees)[0]
+  # puts batch_badge_creator(attendees)[1]
+  # puts assign_rooms(attendees)[1]
+  # puts batch_badge_creator(attendees)[2]
+  # puts assign_rooms(attendees)[2]
+  # puts batch_badge_creator(attendees)[3]
+  # puts assign_rooms(attendees)[3]
+  # puts batch_badge_creator(attendees)[4]
+  # puts assign_rooms(attendees)[4]
+  # puts batch_badge_creator(attendees)[5]
+  # puts assign_rooms(attendees)[5]
+  # puts batch_badge_creator(attendees)[6]
+  # puts assign_rooms(attendees)[6]
 
   # puts assign_rooms(attendees)[0]
 
-  # counter_1 = 0
-  #   while  counter_1 <= batch_badge_creator(attendees).length
-  #    puts batch_badge_creator(attendees)[counter_1]
-  #    counter_1 += 1
-  #    end
+  counter_1 = 0
+    while  counter_1 <= attendees.length - 1
+     puts batch_badge_creator(attendees)[counter_1]
+     counter_1 += 1
+     end
 
-    #  counter_2 = 0
-    #  while  counter_2 <= assign_rooms(attendees).length
-    #   puts assign_rooms(attendees)[counter_2]
-    #   counter_2 += 1
-    #   end
+  
 
 end
