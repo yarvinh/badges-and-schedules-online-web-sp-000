@@ -29,6 +29,7 @@ def printer(attendees)
   puts batch_badge_creator(attendees)[2]
   puts batch_badge_creator(attendees)[3]
   puts batch_badge_creator(attendees)[4]
+  puts batch_badge_creator(attendees)[5]
   # counter_1 = 0
   #   while  counter_1 <= batch_badge_creator(attendees).length
   #    puts batch_badge_creator(attendees)[counter_1]
